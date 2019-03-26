@@ -44,3 +44,414 @@
   ISSN={1077-2626}, 
   month={Jan}
 }
+
+@article{smilkov2016embedding,
+  title={Embedding projector: Interactive visualization and interpretation of embeddings},
+  abstract={Embeddings are ubiquitous in machine learning, appearing in recommender systems, NLP, and many other applications. Researchers and developers often need to explore the properties of a specific embedding, and one way to analyze embeddings is to visualize them. We present the Embedding Projector, a tool for interactive visualization and interpretation of embeddings.}
+  author={Smilkov, Daniel and Thorat, Nikhil and Nicholson, Charles and Reif, Emily and Vi{\'e}gas, Fernanda B and Wattenberg, Martin},
+  journal={arXiv preprint arXiv:1611.05469},
+  year={2016}
+}
+
+
+@article{chung_revacnn:_2016,
+	title = {{ReVACNN}: Real-Time Visual Analytics for Convolutional Neural Network},
+	shorttitle = {{ReVACNN}},
+	author = {Chung, Sunghyo and Suh, Sangho and Park, Cheonbok and Kang, Kyeongpil and Choo, Jaegul and Kwon, Bum Chul},
+	date = {2016},
+	note = {00006},
+	file = {p30-chung.pdf:/home/snie/Zotero/storage/2WE6E8WB/p30-chung.pdf:application/pdf}
+}
+
+@inproceedings{cashman_rnnbow:_2017,
+	title = {Rnnbow: Visualizing learning via backpropagation gradients in recurrent neural networks},
+	shorttitle = {Rnnbow},
+	booktitle = {Workshop on Visual Analytics for Deep Learning ({VADL})},
+	author = {Cashman, Dylan and Patterson, Genevieve and Mosca, Abigail and Chang, Remco},
+	date = {2017},
+	note = {00006},
+	file = {vadl_0107-paper.pdf:/home/snie/Zotero/storage/Z6I8UHG2/vadl_0107-paper.pdf:application/pdf}
+}
+
+@inproceedings{lee_interactive_2017,
+	title = {Interactive Visualization and Manipulation of Attention-based Neural Machine Translation},
+	pages = {121--126},
+	booktitle = {Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing: System Demonstrations},
+	author = {Lee, Jaesong and Shin, Joong-Hwi and Kim, Jun-Seok},
+	date = {2017},
+	keywords = {vis\_deep\_learning, vis\_facilitation},
+	file = {D17-2021.pdf:/home/snie/Zotero/storage/XAS32LNB/D17-2021.pdf:application/pdf}
+}
+
+@article{bau_network_2017,
+	title = {Network Dissection: Quantifying Interpretability of Deep Visual Representations},
+	url = {http://arxiv.org/abs/1704.05796},
+	shorttitle = {Network Dissection},
+	abstract = {We propose a general framework called Network Dissection for quantifying the interpretability of latent representations of {CNNs} by evaluating the alignment between individual hidden units and a set of semantic concepts. Given any {CNN} model, the proposed method draws on a broad data set of visual concepts to score the semantics of hidden units at each intermediate convolutional layer. The units with semantics are given labels across a range of objects, parts, scenes, textures, materials, and colors. We use the proposed method to test the hypothesis that interpretability of units is equivalent to random linear combinations of units, then we apply our method to compare the latent representations of various networks when trained to solve different supervised and self-supervised training tasks. We further analyze the effect of training iterations, compare networks trained with different initializations, examine the impact of network depth and width, and measure the effect of dropout and batch normalization on the interpretability of deep visual representations. We demonstrate that the proposed method can shed light on characteristics of {CNN} models and training methods that go beyond measurements of their discriminative power.},
+	journaltitle = {{arXiv}:1704.05796 [cs]},
+	author = {Bau, David and Zhou, Bolei and Khosla, Aditya and Oliva, Aude and Torralba, Antonio},
+	urldate = {2017-11-08},
+	date = {2017-04-19},
+	eprinttype = {arxiv},
+	eprint = {1704.05796},
+	note = {00182 },
+	file = {Bau et al_2017_Network Dissection.pdf:/home/snie/Zotero/storage/PP38AGER/Bau et al_2017_Network Dissection.pdf:application/pdf}
+}
+
+@article{wei_understanding_2015,
+	title = {Understanding Intra-Class Knowledge Inside {CNN}},
+	url = {http://arxiv.org/abs/1507.02379},
+	abstract = {Convolutional Neural Network ({CNN}) has been successful in image recognition tasks, and recent works shed lights on how {CNN} separates different classes with the learned inter-class knowledge through visualization. In this work, we instead visualize the intra-class knowledge inside {CNN} to better understand how an object class is represented in the fully-connected layers. To invert the intra-class knowledge into more interpretable images, we propose a non-parametric patch prior upon previous {CNN} visualization models. With it, we show how different "styles" of templates for an object class are organized by {CNN} in terms of location and content, and represented in a hierarchical and ensemble way. Moreover, such intra-class knowledge can be used in many interesting applications, e.g. style-based image retrieval and style-based object completion.},
+	journaltitle = {{arXiv}:1507.02379 [cs]},
+	author = {Wei, Donglai and Zhou, Bolei and Torrabla, Antonio and Freeman, William},
+	urldate = {2017-11-08},
+	date = {2015-07-09},
+	eprinttype = {arxiv},
+	eprint = {1507.02379},
+	keywords = {vis\_deep\_learning, vis\_cnn},
+	file = {Wei et al_2015_Understanding Intra-Class Knowledge Inside CNN.pdf:/home/snie/Zotero/storage/WKLDIE6D/Wei et al_2015_Understanding Intra-Class Knowledge Inside CNN.pdf:application/pdf}
+}
+
+@article{li_visualizing_2015,
+	title = {Visualizing and Understanding Neural Models in {NLP}},
+	url = {http://arxiv.org/abs/1506.01066},
+	abstract = {While neural networks have been successfully applied to many {NLP} tasks the resulting vector-based models are very difficult to interpret. For example it's not clear how they achieve \{{\textbackslash}em compositionality\}, building sentence meaning from the meanings of words and phrases. In this paper we describe four strategies for visualizing compositionality in neural models for {NLP}, inspired by similar work in computer vision. We first plot unit values to visualize compositionality of negation, intensification, and concessive clauses, allow us to see well-known markedness asymmetries in negation. We then introduce three simple and straightforward methods for visualizing a unit's \{{\textbackslash}em salience\}, the amount it contributes to the final composed meaning: (1) gradient back-propagation, (2) the variance of a token from the average word node, (3) {LSTM}-style gates that measure information flow. We test our methods on sentiment using simple recurrent nets and {LSTMs}. Our general-purpose methods may have wide applications for understanding compositionality and other semantic properties of deep networks , and also shed light on why {LSTMs} outperform simple recurrent nets,},
+	journaltitle = {{arXiv}:1506.01066 [cs]},
+	author = {Li, Jiwei and Chen, Xinlei and Hovy, Eduard and Jurafsky, Dan},
+	urldate = {2017-11-08},
+	date = {2015-06-02},
+	eprinttype = {arxiv},
+	eprint = {1506.01066},
+	file = {Li et al_2015_Visualizing and Understanding Neural Models in NLP.pdf:/home/snie/Zotero/storage/AXGL8YRG/Li et al_2015_Visualizing and Understanding Neural Models in NLP.pdf:application/pdf}
+}
+
+@article{karpathy_visualizing_2015,
+	title = {Visualizing and Understanding Recurrent Networks},
+	url = {http://arxiv.org/abs/1506.02078},
+	abstract = {Recurrent Neural Networks ({RNNs}), and specifically a variant with Long Short-Term Memory ({LSTM}), are enjoying renewed interest as a result of successful applications in a wide range of machine learning problems that involve sequential data. However, while {LSTMs} provide exceptional results in practice, the source of their performance and their limitations remain rather poorly understood. Using character-level language models as an interpretable testbed, we aim to bridge this gap by providing an analysis of their representations, predictions and error types. In particular, our experiments reveal the existence of interpretable cells that keep track of long-range dependencies such as line lengths, quotes and brackets. Moreover, our comparative analysis with finite horizon n-gram models traces the source of the {LSTM} improvements to long-range structural dependencies. Finally, we provide analysis of the remaining errors and suggests areas for further study.},
+	journaltitle = {{arXiv}:1506.02078 [cs]},
+	author = {Karpathy, Andrej and Johnson, Justin and Fei-Fei, Li},
+	urldate = {2017-11-08},
+	date = {2015-06-05},
+	eprinttype = {arxiv},
+	eprint = {1506.02078},
+	note = {00443 },
+	file = {Karpathy et al_2015_Visualizing and Understanding Recurrent Networks.pdf:/home/snie/Zotero/storage/9ULTD759/Karpathy et al_2015_Visualizing and Understanding Recurrent Networks.pdf:application/pdf}
+}
+
+@article{zeiler_visualizing_2013,
+	title = {Visualizing and Understanding Convolutional Networks},
+	url = {http://arxiv.org/abs/1311.2901},
+	abstract = {Large Convolutional Network models have recently demonstrated impressive classification performance on the {ImageNet} benchmark. However there is no clear understanding of why they perform so well, or how they might be improved. In this paper we address both issues. We introduce a novel visualization technique that gives insight into the function of intermediate feature layers and the operation of the classifier. We also perform an ablation study to discover the performance contribution from different model layers. This enables us to find model architectures that outperform Krizhevsky {\textbackslash}etal on the {ImageNet} classification benchmark. We show our {ImageNet} model generalizes well to other datasets: when the softmax classifier is retrained, it convincingly beats the current state-of-the-art results on Caltech-101 and Caltech-256 datasets.},
+	journaltitle = {{arXiv}:1311.2901 [cs]},
+	author = {Zeiler, Matthew D. and Fergus, Rob},
+	urldate = {2017-11-08},
+	date = {2013-11-12},
+	eprinttype = {arxiv},
+	eprint = {1311.2901},
+	keywords = {vis\_deep\_learning, vis\_cnn},
+	file = {Zeiler_Fergus_2013_Visualizing and Understanding Convolutional Networks.pdf:/home/snie/Zotero/storage/3SNU59LB/Zeiler_Fergus_2013_Visualizing and Understanding Convolutional Networks.pdf:application/pdf}
+}
+
+@article{erhan_visualizing_2009,
+	title = {Visualizing Higher-Layer Features of a Deep Network},
+	abstract = {Deep architectures have demonstrated state-of-the-art results in a variety of settings, especially with vision datasets. Beyond the model definitions and the quantitative analyses, there is a need for qualitative comparisons of the solutions learned by various deep architectures. The goal of this paper is to find good qualita-tive interpretations of high level features represented by such models. To this end, we contrast and compare several techniques applied on Stacked Denoising Auto-encoders and Deep Belief Networks, trained on several vision datasets. We show that, perhaps counter-intuitively, such interpretation is possible at the unit level, that it is simple to accomplish and that the results are consistent across various techniques. We hope that such techniques will allow researchers in deep architec-tures to understand more of how and why deep architectures work.},
+	journaltitle = {Technical Report, Univeristé de Montréal},
+	author = {Erhan, Dumitru and Bengio, Y and Courville, Aaron and Vincent, Pascal},
+	date = {2009-01-01},
+	note = {00391},
+	file = {Erhan et al_2009_Visualizing Higher-Layer Features of a Deep Network.pdf:/home/snie/Zotero/storage/WB3SVDGT/Erhan et al_2009_Visualizing Higher-Layer Features of a Deep Network.pdf:application/pdf}
+}
+
+@article{ming_understanding_2017,
+	title = {Understanding Hidden Memories of Recurrent Neural Networks},
+	url = {http://arxiv.org/abs/1710.10777},
+	abstract = {Recurrent neural networks ({RNNs}) have been successfully applied to various natural language processing ({NLP}) tasks and achieved better results than conventional methods. However, the lack of understanding of the mechanisms behind their effectiveness limits further improvements on their architectures. In this paper, we present a visual analytics method for understanding and comparing {RNN} models for {NLP} tasks. We propose a technique to explain the function of individual hidden state units based on their expected response to input texts. We then co-cluster hidden state units and words based on the expected response and visualize co-clustering results as memory chips and word clouds to provide more structured knowledge on {RNNs}' hidden states. We also propose a glyph-based sequence visualization based on aggregate information to analyze the behavior of an {RNN}'s hidden state at the sentence-level. The usability and effectiveness of our method are demonstrated through case studies and reviews from domain experts.},
+	journaltitle = {{arXiv}:1710.10777 [cs]},
+	author = {Ming, Yao and Cao, Shaozu and Zhang, Ruixiang and Li, Zhen and Chen, Yuanzhe and Song, Yangqiu and Qu, Huamin},
+	urldate = {2017-11-04},
+	date = {2017-10-30},
+	eprinttype = {arxiv},
+	eprint = {1710.10777},
+	keywords = {vis\_deep\_learning, vis\_rnn, vis\_understanding},
+	file = {arXiv\:1710.10777 PDF:/home/snie/Zotero/storage/WW4WZ5BW/Ming et al. - 2017 - Understanding Hidden Memories of Recurrent Neural .pdf:application/pdf}
+}
+
+@article{alsallakh_convolutional_2017,
+	title = {Do Convolutional Neural Networks Learn Class Hierarchy?},
+	volume = {{PP}},
+	issn = {1077-2626},
+	doi = {10.1109/TVCG.2017.2744683},
+	abstract = {Convolutional Neural Networks ({CNNs}) currently achieve state-of-the-art accuracy in image classification. With a growing number of classes, the accuracy usually drops as the possibilities of confusion increase. Interestingly, the class confusion patterns follow a hierarchical structure over the classes. We present visual-analytics methods to reveal and analyze this hierarchy of similar classes in relation with {CNN}-internal data. We found that this hierarchy not only dictates the confusion patterns between the classes, it furthermore dictates the learning behavior of {CNNs}. In particular, the early layers in these networks develop feature detectors that can separate high-level groups of classes quite well, even after a few training epochs. In contrast, the latter layers require substantially more epochs to develop specialized feature detectors that can separate individual classes. We demonstrate how these insights are key to significant improvement in accuracy by designing hierarchy-aware {CNNs} that accelerate model convergence and alleviate overfitting. We further demonstrate how our methods help in identifying various quality issues in the training data.},
+	pages = {1--1},
+	number = {99},
+	journaltitle = {{IEEE} Transactions on Visualization and Computer Graphics},
+	author = {Alsallakh, B. and Jourabloo, A. and Ye, M. and Liu, X. and Ren, L.},
+	date = {2017},
+	note = {00030},
+	keywords = {vis\_design\_study, vis\_deep\_learning},
+	file = {IEEE Xplore Full Text PDF:/home/snie/Zotero/storage/IICFM6AR/Alsallakh et al. - 2017 - Do Convolutional Neural Networks Learn Class Hiera.pdf:application/pdf}
+}
+
+@article{zeng_cnncomparator:_2017,
+	title = {{CNNComparator}: Comparative Analytics of Convolutional Neural Networks},
+	url = {http://arxiv.org/abs/1710.05285},
+	shorttitle = {{CNNComparator}},
+	abstract = {Convolutional neural networks ({CNNs}) are widely used in many image recognition tasks due to their extraordinary performance. However, training a good {CNN} model can still be a challenging task. In a training process, a {CNN} model typically learns a large number of parameters over time, which usually results in different performance. Often, it is difficult to explore the relationships between the learned parameters and the model performance due to a large number of parameters and different random initializations. In this paper, we present a visual analytics approach to compare two different snapshots of a trained {CNN} model taken after different numbers of epochs, so as to provide some insight into the design or the training of a better {CNN} model. Our system compares snapshots by exploring the differences in operation parameters and the corresponding blob data at different levels. A case study has been conducted to demonstrate the effectiveness of our system.},
+	journaltitle = {{arXiv}:1710.05285 [cs]},
+	author = {Zeng, Haipeng and Haleem, Hammad and Plantaz, Xavier and Cao, Nan and Qu, Huamin},
+	urldate = {2017-11-04},
+	date = {2017-10-15},
+	eprinttype = {arxiv},
+	eprint = {1710.05285},
+	file = {arXiv\:1710.05285 PDF:/home/snie/Zotero/storage/YWUFUAN7/Zeng et al. - 2017 - CNNComparator Comparative Analytics of Convolutio.pdf:application/pdf}
+}
+
+@article{samek_evaluating_2016,
+	title = {Evaluating the Visualization of What a Deep Neural Network Has Learned},
+	issn = {2162-237X},
+	doi = {10.1109/TNNLS.2016.2599820},
+	abstract = {Deep neural networks ({DNNs}) have demonstrated impressive performance in complex machine learning tasks such as image classification or speech recognition. However, due to their multilayer nonlinear structure, they are not transparent, i.e., it is hard to grasp what makes them arrive at a particular classification or recognition decision, given a new unseen data sample. Recently, several approaches have been proposed enabling one to understand and interpret the reasoning embodied in a {DNN} for a single test image. These methods quantify the "importance" of individual pixels with respect to the classification decision and allow a visualization in terms of a heatmap in pixel/input space. While the usefulness of heatmaps can be judged subjectively by a human, an objective quality measure is missing. In this paper, we present a general methodology based on region perturbation for evaluating ordered collections of pixels such as heatmaps. We compare heatmaps computed by three different methods on the {SUN}397, {ILSVRC}2012, and {MIT} Places data sets. Our main result is that the recently proposed layer-wise relevance propagation algorithm qualitatively and quantitatively provides a better explanation of what made a {DNN} arrive at a particular classification decision than the sensitivity-based approach or the deconvolution method. We provide theoretical arguments to explain this result and discuss its practical implications. Finally, we investigate the use of heatmaps for unsupervised assessment of the neural network performance.},
+	pages = {1--14},
+	author = {Samek, Wojciech and Binder, Alexander and Montavon, Gregoire and Lapuschkin, Sebastian and Muller, Klaus-Robert},
+	date = {2016},
+	pmid = {27576267},
+	keywords = {vis\_evaluation, vis\_deep\_learning},
+	file = {Samek et al_2017_Evaluating the Visualization of What a Deep Neural Network Has Learned.pdf:/home/snie/Zotero/storage/QHS5BDLW/Samek et al_2017_Evaluating the Visualization of What a Deep Neural Network Has Learned.pdf:application/pdf}
+}
+
+@article{yosinski_understanding_2015,
+	title = {Understanding neural networks through deep visualization},
+	url = {https://arxiv.org/abs/1506.06579},
+	journaltitle = {{arXiv} preprint {arXiv}:1506.06579},
+	author = {Yosinski, Jason and Clune, Jeff and Nguyen, Anh and Fuchs, Thomas and Lipson, Hod},
+	urldate = {2017-09-28},
+	date = {2015},
+	keywords = {vis\_deep\_learning},
+	file = {Yosinski__2015__ICML_DL__Understanding_Neural_Networks_Through_Deep_Visualization__.pdf:/home/snie/Zotero/storage/BSZQBYC9/Yosinski__2015__ICML_DL__Understanding_Neural_Networks_Through_Deep_Visualization__.pdf:application/pdf}
+}
+
+@article{smilkov_embedding_2016,
+	title = {Embedding Projector: Interactive Visualization and Interpretation of Embeddings},
+	url = {http://arxiv.org/abs/1611.05469},
+	shorttitle = {Embedding Projector},
+	abstract = {Embeddings are ubiquitous in machine learning, appearing in recommender systems, {NLP}, and many other applications. Researchers and developers often need to explore the properties of a specific embedding, and one way to analyze embeddings is to visualize them. We present the Embedding Projector, a tool for interactive visualization and interpretation of embeddings.},
+	journaltitle = {{arXiv}:1611.05469 [cs, stat]},
+	author = {Smilkov, Daniel and Thorat, Nikhil and Nicholson, Charles and Reif, Emily and Viégas, Fernanda B. and Wattenberg, Martin},
+	urldate = {2017-09-26},
+	date = {2016-11-16},
+	eprinttype = {arxiv},
+	eprint = {1611.05469},
+	keywords = {vis\_deep\_learning, vis\_embedding, vis\_interpretation},
+	file = {arXiv\:1611.05469 PDF:/home/snie/Zotero/storage/5IFIEXPS/Smilkov et al. - 2016 - Embedding Projector Interactive Visualization and.pdf:application/pdf}
+}
+
+@article{liu_analyzing_2017,
+	title = {Analyzing the Training Processes of Deep Generative Models},
+	volume = {{PP}},
+	issn = {1077-2626},
+	doi = {10.1109/TVCG.2017.2744938},
+	abstract = {Among the many types of deep models, deep generative models ({DGMs}) provide a solution to the important problem of unsupervised and semi-supervised learning. However, training {DGMs} requires more skill, experience, and know-how because their training is more complex than other types of deep models such as convolutional neural networks ({CNNs}). We develop a visual analytics approach for better understanding and diagnosing the training process of a {DGM}. To help experts understand the overall training process, we first extract a large amount of time series data that represents training dynamics (e.g., activation changes over time). A blue-noise polyline sampling scheme is then introduced to select time series samples, which can both preserve outliers and reduce visual clutter. To further investigate the root cause of a failed training process, we propose a credit assignment algorithm that indicates how other neurons contribute to the output of the neuron causing the training failure. Two case studies are conducted with machine learning experts to demonstrate how our approach helps understand and diagnose the training processes of {DGMs}. We also show how our approach can be directly used to analyze other types of deep models, such as {CNNs}.},
+	pages = {1--1},
+	number = {99},
+	journaltitle = {{IEEE} Transactions on Visualization and Computer Graphics},
+	author = {Liu, M. and Shi, J. and Cao, K. and Zhu, J. and Liu, S.},
+	date = {2017},
+	keywords = {generative\_adversial\_network, deep\_learning\_training, vis\_deep\_learning, vis\_gan},
+	file = {IEEE Xplore Full Text PDF:/home/snie/Zotero/storage/TFEZ8S9Z/Liu et al. - 2017 - Analyzing the Training Processes of Deep Generativ.pdf:application/pdf}
+}
+
+@article{grun_taxonomy_2016,
+	title = {A Taxonomy and Library for Visualizing Learned Features in Convolutional Neural Networks},
+	url = {http://arxiv.org/abs/1606.07757},
+	abstract = {Over the last decade, Convolutional Neural Networks ({CNN}) saw a tremendous surge in performance. However, understanding what a network has learned still proves to be a challenging task. To remedy this unsatisfactory situation, a number of groups have recently proposed different methods to visualize the learned models. In this work we suggest a general taxonomy to classify and compare these methods, subdividing the literature into three main categories and providing researchers with a terminology to base their works on. Furthermore, we introduce the {FeatureVis} library for {MatConvNet}: an extendable, easy to use open source library for visualizing {CNNs}. It contains implementations from each of the three main classes of visualization methods and serves as a useful tool for an enhanced understanding of the features learned by intermediate layers, as well as for the analysis of why a network might fail for certain examples.},
+	journaltitle = {{arXiv}:1606.07757 [cs]},
+	author = {Grün, Felix and Rupprecht, Christian and Navab, Nassir and Tombari, Federico},
+	urldate = {2017-09-23},
+	date = {2016-06-24},
+	eprinttype = {arxiv},
+	eprint = {1606.07757},
+	note = {00031 },
+	keywords = {vis\_taxonomy, vis\_deep\_learning},
+	file = {Grün et al_2016_A Taxonomy and Library for Visualizing Learned Features in Convolutional Neural.pdf:/home/snie/Zotero/storage/RGI5H5BU/Grün et al_2016_A Taxonomy and Library for Visualizing Learned Features in Convolutional Neural.pdf:application/pdf}
+}
+
+@article{stolper_progressive_2014,
+	title = {Progressive Visual Analytics: User-Driven Visual Exploration of In-Progress Analytics},
+	volume = {20},
+	issn = {1077-2626},
+	url = {http://ieeexplore.ieee.org/document/6876049/},
+	doi = {10.1109/TVCG.2014.2346574},
+	shorttitle = {Progressive Visual Analytics},
+	pages = {1653--1662},
+	number = {12},
+	journaltitle = {{IEEE} Transactions on Visualization and Computer Graphics},
+	author = {Stolper, Charles D. and Perer, Adam and Gotz, David},
+	urldate = {2017-09-24},
+	date = {2014-12-31},
+	keywords = {vis\_visual\_analytics, vis\_exploration, vis\_user\_involvement},
+	file = {Stolper et al_2014_Progressive Visual Analytics.pdf:/home/snie/Zotero/storage/D5KZ7WPD/Stolper et al_2014_Progressive Visual Analytics.pdf:application/pdf}
+}
+
+@article{smilkov_direct-manipulation_2017,
+	title = {Direct-Manipulation Visualization of Deep Networks},
+	url = {http://arxiv.org/abs/1708.03788},
+	abstract = {The recent successes of deep learning have led to a wave of interest from non-experts. Gaining an understanding of this technology, however, is difficult. While the theory is important, it is also helpful for novices to develop an intuitive feel for the effect of different hyperparameters and structural variations. We describe {TensorFlow} Playground, an interactive, open sourced visualization that allows users to experiment via direct manipulation rather than coding, enabling them to quickly build an intuition about neural nets.},
+	journaltitle = {{arXiv}:1708.03788 [cs, stat]},
+	author = {Smilkov, Daniel and Carter, Shan and Sculley, D. and Viégas, Fernanda B. and Wattenberg, Martin},
+	urldate = {2018-01-12},
+	date = {2017-08-12},
+	eprinttype = {arxiv},
+	eprint = {1708.03788},
+	keywords = {vis\_interaction, vis\_deep\_learning},
+	file = {Smilkov et al_2017_Direct-Manipulation Visualization of Deep Networks.pdf:/home/snie/Zotero/storage/WM5XNF59/Smilkov et al_2017_Direct-Manipulation Visualization of Deep Networks.pdf:application/pdf}
+}
+
+@article{fong_net2vec:_2018,
+	title = {Net2Vec: Quantifying and Explaining how Concepts are Encoded by Filters in Deep Neural Networks},
+	url = {http://arxiv.org/abs/1801.03454},
+	shorttitle = {Net2Vec},
+	abstract = {In an effort to understand the meaning of the intermediate representations captured by deep networks, recent papers have tried to associate specific semantic concepts to individual neural network filter responses, where interesting correlations are often found, largely by focusing on extremal filter responses. In this paper, we show that this approach can favor easy-to-interpret cases that are not necessarily representative of the average behavior of a representation. A more realistic but harder-to-study hypothesis is that semantic representations are distributed, and thus filters must be studied in conjunction. In order to investigate this idea while enabling systematic visualization and quantification of multiple filter responses, we introduce the Net2Vec framework, in which semantic concepts are mapped to vectorial embeddings based on corresponding filter responses. By studying such embeddings, we are able to show that 1., in most cases, multiple filters are required to code for a concept, that 2., often filters are not concept specific and help encode multiple concepts, and that 3., compared to single filter activations, filter embeddings are able to better characterize the meaning of a representation and its relationship to other concepts.},
+	journaltitle = {{arXiv}:1801.03454 [cs, stat]},
+	author = {Fong, Ruth and Vedaldi, Andrea},
+	urldate = {2018-01-11},
+	date = {2018-01-10},
+	eprinttype = {arxiv},
+	eprint = {1801.03454},
+	note = {00009 },
+	file = {Fong_Vedaldi_2018_Net2Vec.pdf:/home/snie/Zotero/storage/DASGL99A/Fong_Vedaldi_2018_Net2Vec.pdf:application/pdf}
+}
+
+@article{olah_feature_2017,
+	title = {Feature Visualization},
+	volume = {2},
+	issn = {2476-0757},
+	url = {https://distill.pub/2017/feature-visualization},
+	doi = {10.23915/distill.00007},
+	abstract = {How neural networks build up their understanding of images.},
+	pages = {e7},
+	number = {11},
+	journaltitle = {Distill},
+	shortjournal = {Distill},
+	author = {Olah, Chris and Mordvintsev, Alexander and Schubert, Ludwig},
+	urldate = {2017-11-22},
+	date = {2017-11-07},
+	keywords = {vis\_deep\_learning, deep\_learning\_interpretibility, item\_type\_paper}
+}
+
+@article{noauthor_visual_nodate,
+	title = {Visual Tools for Debugging Neural Language Models},
+	url = {http://www.cond.org/lamvi.html},
+	urldate = {2018-02-19},
+	file = {ICML16_NeuralVis.pdf:/home/snie/Zotero/storage/LRIP37XL/ICML16_NeuralVis.pdf:application/pdf}
+}
+
+@article{pezzotti_deepeyes:_2017,
+	title = {{DeepEyes}: Progressive Visual Analytics for Designing Deep Neural Networks},
+	volume = {{PP}},
+	issn = {1077-2626},
+	doi = {10.1109/TVCG.2017.2744358},
+	shorttitle = {{DeepEyes}},
+	abstract = {Deep neural networks are now rivaling human accuracy in several pattern recognition problems. Compared to traditional classifiers, where features are handcrafted, neural networks learn increasingly complex features directly from the data. Instead of handcrafting the features, it is now the network architecture that is manually engineered. The network architecture parameters such as the number of layers or the number of filters per layer and their interconnections are essential for good performance. Even though basic design guidelines exist, designing a neural network is an iterative trial-and-error process that takes days or even weeks to perform due to the large datasets used for training. In this paper, we present {DeepEyes}, a Progressive Visual Analytics system that supports the design of neural networks during training. We present novel visualizations, supporting the identification of layers that learned a stable set of patterns and, therefore, are of interest for a detailed analysis. The system facilitates the identification of problems, such as superfluous filters or layers, and information that is not being captured by the network. We demonstrate the effectiveness of our system through multiple use cases, showing how a trained network can be compressed, reshaped and adapted to different problems.},
+	pages = {1--1},
+	number = {99},
+	journaltitle = {{IEEE} Transactions on Visualization and Computer Graphics},
+	author = {Pezzotti, N. and Höllt, T. and Gemert, J. v and Lelieveldt, B. P. F. and Eisemann, E. and Vilanova, A.},
+	date = {2017},
+	keywords = {vis\_design\_study, vis\_deep\_learning, vis\_visual\_analytics},
+	file = {Pezzotti et al_2017_DeepEyes.pdf:/home/snie/Zotero/storage/FHX6FVH4/Pezzotti et al_2017_DeepEyes.pdf:application/pdf}
+}
+
+@article{rauber_visualizing_2017,
+	title = {Visualizing the Hidden Activity of Artificial Neural Networks},
+	volume = {23},
+	issn = {1077-2626},
+	doi = {10.1109/TVCG.2016.2598838},
+	abstract = {In machine learning, pattern classification assigns high-dimensional vectors (observations) to classes based on generalization from examples. Artificial neural networks currently achieve state-of-the-art results in this task. Although such networks are typically used as black-boxes, they are also widely believed to learn (high-dimensional) higher-level representations of the original observations. In this paper, we propose using dimensionality reduction for two tasks: visualizing the relationships between learned representations of observations, and visualizing the relationships between artificial neurons. Through experiments conducted in three traditional image classification benchmark datasets, we show how visualization can provide highly valuable feedback for network designers. For instance, our discoveries in one of these datasets ({SVHN}) include the presence of interpretable clusters of learned representations, and the partitioning of artificial neurons into groups with apparently related discriminative roles.},
+	pages = {101--110},
+	number = {1},
+	journaltitle = {{IEEE} Transactions on Visualization and Computer Graphics},
+	author = {Rauber, P. E. and Fadel, S. G. and Falcão, A. X. and Telea, A. C.},
+	date = {2017-01},
+	keywords = {vis\_design\_study, vis\_deep\_learning, visualization, item\_type\_paper},
+	file = {Rauber et al_2017_Visualizing the Hidden Activity of Artificial Neural Networks.pdf:/home/snie/Zotero/storage/JQW2MW54/Rauber et al_2017_Visualizing the Hidden Activity of Artificial Neural Networks.pdf:application/pdf}
+}
+
+@article{wongsuphasawat_visualizing_2017,
+	title = {Visualizing Dataflow Graphs of Deep Learning Models in {TensorFlow}},
+	volume = {{PP}},
+	issn = {1077-2626},
+	doi = {10.1109/TVCG.2017.2744878},
+	abstract = {We present a design study of the {TensorFlow} Graph Visualizer, part of the {TensorFlow} machine intelligence platform. This tool helps users understand complex machine learning architectures by visualizing their underlying dataflow graphs. The tool works by applying a series of graph transformations that enable standard layout techniques to produce a legible interactive diagram. To declutter the graph, we decouple non-critical nodes from the layout. To provide an overview, we build a clustered graph using the hierarchical structure annotated in the source code. To support exploration of nested structure on demand, we perform edge bundling to enable stable and responsive cluster expansion. Finally, we detect and highlight repeated structures to emphasize a model's modular composition. To demonstrate the utility of the visualizer, we describe example usage scenarios and report user feedback. Overall, users find the visualizer useful for understanding, debugging, and sharing the structures of their models.},
+	pages = {1--1},
+	number = {99},
+	journaltitle = {{IEEE} Transactions on Visualization and Computer Graphics},
+	author = {Wongsuphasawat, K. and Smilkov, D. and Wexler, J. and Wilson, J. and Mané, D. and Fritz, D. and Krishnan, D. and Viégas, F. B. and Wattenberg, M.},
+	date = {2017},
+	keywords = {vis\_design\_study, vis\_deep\_learning, visualization, vis\_graph, item\_type\_paper},
+	file = {IEEE Xplore Full Text PDF:/home/snie/Zotero/storage/PD6Z8CJV/Wongsuphasawat et al. - 2017 - Visualizing Dataflow Graphs of Deep Learning Model.pdf:application/pdf}
+}
+
+@article{liu_visual_2017,
+	title = {Visual Exploration of Semantic Relationships in Neural Word Embeddings},
+	volume = {{PP}},
+	issn = {1077-2626},
+	doi = {10.1109/TVCG.2017.2745141},
+	abstract = {Constructing distributed representations for words through neural language models and using the resulting vector spaces for analysis has become a crucial component of natural language processing ({NLP}). However, despite their widespread application, little is known about the structure and properties of these spaces. To gain insights into the relationship between words, the {NLP} community has begun to adapt high-dimensional visualization techniques. In particular, researchers commonly use t-distributed stochastic neighbor embeddings (t-{SNE}) and principal component analysis ({PCA}) to create two-dimensional embeddings for assessing the overall structure and exploring linear relationships (e.g., word analogies), respectively. Unfortunately, these techniques often produce mediocre or even misleading results and cannot address domain-specific visualization challenges that are crucial for understanding semantic relationships in word embeddings. Here, we introduce new embedding techniques for visualizing semantic and syntactic analogies, and the corresponding tests to determine whether the resulting views capture salient structures. Additionally, we introduce two novel views for a comprehensive study of analogy relationships. Finally, we augment t-{SNE} embeddings to convey uncertainty information in order to allow a reliable interpretation. Combined, the different views address a number of domain-specific tasks difficult to solve with existing tools.},
+	pages = {1--1},
+	number = {99},
+	journaltitle = {{IEEE} Transactions on Visualization and Computer Graphics},
+	author = {Liu, S. and Bremer, P. T. and Thiagarajan, J. J. and Srikumar, V. and Wang, B. and Livnat, Y. and Pascucci, V.},
+	date = {2017},
+	keywords = {vis\_design\_study, vis\_deep\_learning, vis\_embedding},
+	file = {Liu et al_2017_Visual Exploration of Semantic Relationships in Neural Word Embeddings.pdf:/home/snie/Zotero/storage/JKV6DKGI/Liu et al_2017_Visual Exploration of Semantic Relationships in Neural Word Embeddings.pdf:application/pdf}
+}
+
+@article{park_conceptvector:_2017,
+	title = {{ConceptVector}: Text Visual Analytics via Interactive Lexicon Building using Word Embedding},
+	volume = {{PP}},
+	issn = {1077-2626},
+	doi = {10.1109/TVCG.2017.2744478},
+	shorttitle = {{ConceptVector}},
+	abstract = {Central to many text analysis methods is the notion of a concept: a set of semantically related keywords characterizing a specific object, phenomenon, or theme. Advances in word embedding allow building a concept from a small set of seed terms. However, naive application of such techniques may result in false positive errors because of the polysemy of natural language. To mitigate this problem, we present a visual analytics system called {ConceptVector} that guides a user in building such concepts and then using them to analyze documents. Document-analysis case studies with real-world datasets demonstrate the fine-grained analysis provided by {ConceptVector}. To support the elaborate modeling of concepts, we introduce a bipolar concept model and support for specifying irrelevant words. We validate the interactive lexicon building interface by a user study and expert reviews. Quantitative evaluation shows that the bipolar lexicon generated with our methods is comparable to human-generated ones.},
+	pages = {1--1},
+	number = {99},
+	journaltitle = {{IEEE} Transactions on Visualization and Computer Graphics},
+	author = {Park, D. and Kim, S. and Lee, J. and Choo, J. and Diakopoulos, N. and Elmqvist, N.},
+	date = {2017},
+	keywords = {vis\_design\_study, vis\_text\_vis},
+	file = {IEEE Xplore Full Text PDF:/home/snie/Zotero/storage/38ELN8RK/Park et al. - 2018 - ConceptVector Text Visual Analytics via Interacti.pdf:application/pdf;Park et al_2017_ConceptVector.pdf:/home/snie/Zotero/storage/7JX8BIRT/Park et al_2017_ConceptVector.pdf:application/pdf}
+}
+
+@article{kahng_gan_2018,
+	title = {{GAN} Lab: Understanding Complex Deep Generative Models using Interactive Visual Experimentation},
+	issn = {1077-2626, 1941-0506, 2160-9306},
+	url = {http://arxiv.org/abs/1809.01587},
+	doi = {10.1109/TVCG.2018.2864500},
+	shorttitle = {{GAN} Lab},
+	abstract = {Recent success in deep learning has generated immense interest among practitioners and students, inspiring many to learn about this new technology. While visual and interactive approaches have been successfully developed to help people more easily learn deep learning, most existing tools focus on simpler models. In this work, we present {GAN} Lab, the first interactive visualization tool designed for non-experts to learn and experiment with Generative Adversarial Networks ({GANs}), a popular class of complex deep learning models. With {GAN} Lab, users can interactively train generative models and visualize the dynamic training process's intermediate results. {GAN} Lab tightly integrates an model overview graph that summarizes {GAN}'s structure, and a layered distributions view that helps users interpret the interplay between submodels. {GAN} Lab introduces new interactive experimentation features for learning complex deep learning models, such as step-by-step training at multiple levels of abstraction for understanding intricate training dynamics. Implemented using {TensorFlow}.js, {GAN} Lab is accessible to anyone via modern web browsers, without the need for installation or specialized hardware, overcoming a major practical challenge in deploying interactive tools for deep learning.},
+	pages = {1--1},
+	journaltitle = {{IEEE} Transactions on Visualization and Computer Graphics},
+	author = {Kahng, Minsuk and Thorat, Nikhil and Chau, Duen Horng and Viégas, Fernanda and Wattenberg, Martin},
+	urldate = {2018-10-01},
+	date = {2018},
+	eprinttype = {arxiv},
+	eprint = {1809.01587},
+	note = {00002 },
+	keywords = {vis\_design\_study, vis\_deep\_learning, vis\_gan},
+	file = {arXiv\:1809.01587 PDF:/home/snie/Zotero/storage/8WNY5XRB/Kahng et al. - 2018 - GAN Lab Understanding Complex Deep Generative Mod.pdf:application/pdf}
+}
+
+@article{wang_ganviz:_2018,
+	title = {{GANViz}: A Visual Analytics Approach to Understand the Adversarial Game},
+	issn = {1077-2626},
+	doi = {10.1109/TVCG.2018.2816223},
+	shorttitle = {{GANViz}},
+	abstract = {Generative models bear promising implications to learn data representations in an unsupervised fashion with deep learning. Generative Adversarial Nets ({GAN}) is one of the most popular frameworks in this arena. Despite the promising results from different types of {GANs}, in-depth understanding on the adversarial training process of the models remains a challenge to domain experts. The complexity and the potential long-time training process of the models make it hard to evaluate, interpret, and optimize them. In this work, guided by practical needs from domain experts, we design and develop a visual analytics system, {GANViz}, aiming to help experts understand the adversarial process of {GANs} in-depth. Specifically, {GANViz} evaluates the model performance of two subnetworks of {GANs}, provides evidence and interpretations of the models' performance, and empowers comparative analysis with the evidence. Through our case studies with two real-world datasets, we demonstrate that {GANViz} can provide useful insight into helping domain experts understand, interpret, evaluate, and potentially improve {GAN} models.},
+	pages = {1--1},
+	journaltitle = {{IEEE} Transactions on Visualization and Computer Graphics},
+	author = {Wang, J. and Gou, L. and Yang, H. and Shen, H. W.},
+	date = {2018},
+	keywords = {vis\_design\_study, vis\_deep\_learning, vis\_gan},
+	file = {IEEE Xplore Full Text PDF:/home/snie/Zotero/storage/GB6PX89A/Wang et al. - 2018 - GANViz A Visual Analytics Approach to Understand .pdf:application/pdf}
+}
